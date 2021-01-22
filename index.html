@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HelloCheckssg!</h1>
-    <div class="bloc"></div>
+    <h1>Hello Java!</h1>
+    <h2 id="go">Where are we going ?</h2>
+    <script>
+        var Bito = document.getElementById("go");
+        console.log(Bito.innerHTML);
+        var Hey = prompt("Fill out the new heading bro");
+        Bito.innerHTML = Hey;
+    </script>
     
 </body>
 </html>
