@@ -1,0 +1,6 @@
+git init ==> Create a repository with project
+git config --global/--local user.name "NAME" ==> Create a global/local user for the project repository
+git config --global/--local user.email email@example.com ==> Create a global/local user email for the project repository
+git status ==> Check the status of control
+git add -A/index.html ==> Start following All files/index.html
+git commit -a/index.html ==> Create a check point for All/index.html
